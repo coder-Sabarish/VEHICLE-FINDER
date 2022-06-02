@@ -67,6 +67,7 @@ header .navbar ul{
   margin:0; padding:0;
 }
 
+
 header .navbar ul li{
   margin:0 1rem;
 }
@@ -257,7 +258,7 @@ header .fa-bars{
   animation-duration: 1.5s;
 }
 
-.slider-tittle
+.slider-tittle, .about-text
 {
   font-size: 35px;
   text-align: center;
@@ -329,16 +330,6 @@ header .fa-bars{
 .footer .credit span{
   color:var(--red);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -445,6 +436,14 @@ header .fa-bars{
 .about-image{
   width: 100%;
   height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .creators-list li
@@ -456,8 +455,20 @@ header .fa-bars{
   list-style-image: url(images/list-style1.png);
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 772px) {
   .about-content, .creators-list li {
-    font-size: 22px;
+    font-size: 26px;
+  }
+} 
+
+@media screen and (max-width: 772px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .about-content, .creators-list li {
+    font-size: 200%;
   }
 } 
