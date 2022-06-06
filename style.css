@@ -268,7 +268,7 @@ header .fa-bars{
 .offer-image
 {
   width: auto;
-  height: 600px;
+  height: 25%;
 }
 
 @keyframes fade {
