@@ -11,6 +11,9 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
+    <!--bootstrap link-->
+    <link rel="stylesheet"  type="text/css" href="stylesheet.css">
+   
 
 </head>
 <body>
@@ -54,16 +57,17 @@
 
         <h3>search your vehicle</h3>
 
-        <span>Enter City</span>
-        <input type="text" placeholder="Type city name">
+        <span>Select city/Town/Village</span>
+        <select>
+          <option>City</option>
+          <option>Village</option>
+          <option>Town</option>
+        </select>
+        <!--
+        <input type="text" placeholder="Type city name">-->
 
-        <span>Enter Town</span>
+        <span>Enter Name</span>
         <input type="text" placeholder="Type your town">
-
-        <span>Enter Village</span>
-        <input type="text" placeholder="Type your Village">
-
-        
 
         <input type="submit" value="search">
 
@@ -131,13 +135,12 @@
 
 <section id="about">
   
-  <h2 class="about-text" >About us</h2>
+<h2 class="about-text" >About us</h2>
 <div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <img class="about-image" src="images/about-image.jpg" align="left" alt="">
+    <div class="col-1">
+      <img class="about-image" src="images/about-image.jpg" align="left">
     </div>
-    <div class="col-md-6">
+    <div class="col-2">
       <p class="about-content">
         This is a fasinating site where you can find suitable vehicle for your locality<br>
         To enjoy the joy of riding a perfect vehicle is a greate partner so choose your desirable vehicle here
@@ -150,10 +153,10 @@
           <li>sabarish</li>
           <li>ragul</li>
           <li>ranjith</li>
+          <li>Gokul</li>
         </ul>
       </p>
     </div>
-  </div>
 </div>
 <br><br><br>
 
