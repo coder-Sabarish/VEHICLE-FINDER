@@ -9,7 +9,7 @@
 body,
 input,
 textarea {
-  font-family: 'Kalam', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -18,7 +18,7 @@ textarea {
   min-height: 100vh;
   padding: 2rem;
   background-color: #12192c;
-  background-image: url("bks.jpg");
+  background-image: url(images/bks.jpg);
   background-position: center;
   overflow: hidden;
   display: flex;
